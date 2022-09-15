@@ -430,3 +430,30 @@ h1,h2,h3{
     opacity: 25%;
     margin-bottom: 50px;
 }
+
+/**Brand**/
+.brand {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    color: var(--text-color-dark);
+    background: #f8f8f8;
+}
+
+.brand-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-item{
+ width: 16.666%;
+}
+
+.brand-img-wrap{
+    text-align: center;
+}
