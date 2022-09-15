@@ -457,3 +457,73 @@ h1,h2,h3{
 .brand-img-wrap{
     text-align: center;
 }
+
+/**Slider**/
+.slider {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    color: var(--text-color-dark);
+    background: #f8f8f8;
+}
+
+.slider-content{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 80px;
+}
+
+.slider-item{
+width: 100%;
+}
+
+.slider-item-img{
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border: 2px solid var(--main-color-green);
+    vertical-align: middle;
+    margin-right: 60px;
+}
+
+
+.slider-item-text{
+    display: inline-block;
+    width: calc(100% - 220px);
+    vertical-align: middle;
+}
+
+.slider-item-img img{
+    width: 80px;
+}
+
+.text-slider{
+    font-size: 23px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.slider-item .color-line{
+    background-color: var(--accent-color-pink);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.slider-user{
+    font-size: 25px;
+    font-family: 'Kaushan Script';
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+.slider .container{
+    
+}
+
