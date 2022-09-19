@@ -29,3 +29,7 @@
 .brand-img-wrap {
     text-align: center;
 }
+
+.brand-img-wrap img{
+    width: auto;
+}

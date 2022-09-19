@@ -1,0 +1,84 @@
+/**Map**/
+.map {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    color: var(--accent-color-pink);
+    background: url("../img/map.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.label{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.map::after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #ffffff;
+    opacity: 60%;
+}
+
+.map .h2-title {
+    color: var(--accent-color-pink);
+}
+
+.map .color-line{
+   background: var(--accent-color-pink); 
+}
+
+.map-marker{
+    fill: var(--accent-color-pink);
+}
+
+.map-content{
+    position: relative;
+    z-index: 3;
+}
+
+
+.start-meny {
+    position: absolute;
+    width: 100%;
+    min-height: 0px;
+    height: 0px;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background-color: brown;
+    transition: 2s all ease;
+    overflow: hidden;
+    z-index: 100;
+}
+
+input{
+    display: none;
+}
+
+input:checked ~ .start-meny{
+    height: 600px;
+    transition: 1s all ease;
+}
+
+frame{
+    position: relative;
+    z-index: 1;
+}
+
+.close-map{
+text-align: center;
+padding: 20px;
+background-color: var(--main-color-green);
+}

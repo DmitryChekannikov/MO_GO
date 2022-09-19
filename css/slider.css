@@ -40,8 +40,8 @@
     vertical-align: middle;
 }
 
-.slider-item-img img {
-    width: 80px;
+.slider-icon{
+    fill: var(--main-color-green);
 }
 
 .text-slider {
@@ -62,5 +62,3 @@
     vertical-align: middle;
     padding-left: 20px;
 }
-
-.slider .container {}
