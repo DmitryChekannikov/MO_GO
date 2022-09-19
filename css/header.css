@@ -1,0 +1,160 @@
+/**header**/
+.header {
+    position: relative;
+    box-sizing: border-box;
+    height: 100vh;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: var(--text-color-white);
+    background: #ffffff;
+    background: url("../img/picture3.png") no-repeat center;
+    background-size: cover;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(244, 139, 130, 0.85), rgba(252, 227, 138, 0.85));
+}
+
+.header-content {
+    position: relative;
+    z-index: 101;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.h-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main-meny {}
+
+.main-meny li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.main-meny li:last-child {
+    margin-right: 0px;
+}
+
+.main-meny a {
+    color: var(--text-color-white);
+    text-decoration: none;
+    padding-bottom: 10px;
+    transition: all 0.2s ease;
+}
+
+.main-meny a:hover {
+    color: #fde48a;
+    border-bottom: 3px solid #fde48a;
+}
+
+.main-meny .img_a:hover {
+    color: #fde48a;
+    border-bottom: 0px solid #fde48a;
+}
+
+.main-meny img {
+    width: 20px;
+}
+
+.h-center {
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.h-center .h1 {
+    color: var(--text-color-white);
+}
+
+.h-center .color-line {
+    margin-bottom: 50px;
+}
+
+.h1-subtitle {
+    font-size: 60px;
+    font-family: 'Kaushan Script';
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.button:hover {
+    color: var(--text-color-white);
+    background: var(--accent-color-pink);
+}
+
+.h-bottom {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.h-bottom span {
+    transition: all 0.2s ease;
+}
+
+.nav-bottom {
+    width: 25%;
+    margin-right: 30px;
+    cursor: pointer;
+    opacity: 75%;
+}
+
+.nav-bottom:last-child {
+    margin-right: 0px;
+}
+
+.nav-bottom-line {
+    width: 100%;
+    height: 3px;
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+
+.nav-bottom-line span {
+    display: block;
+    width: 0%;
+    height: 3px;
+    background: var(--accent-color-pink);
+}
+
+.nav-bottom:hover span {
+    width: 33%;
+}
+
+.nav-bottom:hover {
+    opacity: 100%;
+}
+
+.nav-bottom-text {
+    color: var(--text-color-white);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.nav-bottom-text span {
+    font-size: 25px;
+    font-weight: bold;
+}

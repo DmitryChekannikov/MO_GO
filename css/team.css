@@ -1,0 +1,121 @@
+/**Team**/
+.team {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 110px;
+    color: var(--text-color-dark);
+}
+
+.team-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-item {
+    position: relative;
+    width: 33.333%;
+    height: auto;
+    margin-right: 55px;
+    text-align: center;
+}
+
+.team-item:last-child {
+    margin-right: 0px;
+}
+
+.team-item-img {
+    position: relative;
+    background: var(--main-color-green);
+    vertical-align: middle;
+    z-index: 2;
+    transition: all 0.5s ease;
+}
+
+.team-item-img .img {
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+.team-item-text {
+    margin-top: 20px;
+}
+
+.team-item-text .text {
+    font-style: italic;
+    font-weight: Thin;
+}
+
+
+.team-item-menu {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.gradient-i {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(rgba(244, 139, 130), rgba(252, 227, 138));
+    opacity: 0%;
+    transition: all 2s ease;
+}
+
+.team-item-img .img:hover {
+    transform: translateX(-15px) translateY(-15px);
+}
+
+.team-item-img .img:hover .gradient-i {
+    opacity: 90%;
+    transition: all 0.5s ease;
+}
+
+.team-item-menu ul {
+    display: inline-block;
+}
+
+.team-item-menu ul li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border: 1px solid var(--accent-color-pink);
+    background-color: #fce38a;
+    transition: all 0.5s ease;
+}
+
+.team-item-menu ul li:hover {
+    background-color: var(--accent-color-pink);
+}
+
+.team-item-menu img {
+    width: 30px;
+}
+
+.team-item-menu {
+    opacity: 0%;
+    transition: all 1s ease;
+
+}
+
+.team-item-img:hover .team-item-menu {
+    opacity: 100%;
+}

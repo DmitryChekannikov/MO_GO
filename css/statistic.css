@@ -1,0 +1,47 @@
+/**statistic**/
+.statistic {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: var(--text-color-white);
+    background: var(--main-color-green);
+}
+
+.statistic-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.statistic-item {
+    text-align: center;
+    width: 20%;
+    padding: 75px 20px;
+}
+
+.statistic-item:nth-child(2n) {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.statistic-item:last-child {
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.statistic-item:first-child {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.statistic-item-count {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.statistic-item-text {
+    font-size: 14px;
+    text-transform: uppercase;
+}

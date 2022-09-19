@@ -1,0 +1,38 @@
+/**globaltitle**/
+.globaltitle {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: var(--text-color-dark);
+    text-align: center;
+}
+
+.globaltitle-content {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.h2-subtitle {
+    font-size: 25px;
+    font-family: 'Kaushan Script';
+}
+
+.h2 {
+    margin-bottom: 30px;
+}
+
+.globaltitle .color-line {
+    width: 70px;
+    height: 3px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: var(--accent-color-pink);
+}
+
+.globaltitle .text {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+}
