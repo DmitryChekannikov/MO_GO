@@ -1,7 +1,9 @@
 html,body{
+    position: relative;
     margin: 0px;
     font-family: 'Montserrat';
     line-height: 1.4;
+    scroll-behavior: smooth;
 
     /**var**/
     --main-color-green: #95e1d3;
@@ -10,6 +12,53 @@ html,body{
     --text-color-grey: #999999;
     --text-color-white: #ffffff;
     --gradien:
+}
+
+
+/**cursor**/
+.cursor{
+    cursor: url("../img/cursor.png") 1 1, default;
+}
+
+
+/**skroll**/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fce38a;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color-green);
+    border-radius: 10px;
+    max-height: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    cursor: url("../img/cursor.png") 1 1, default !important;
+}
+
+
+/**arrowtop**/
+.top_arrow {
+    position: fixed;
+    z-index: 99;
+    right: 50px;
+    bottom: 50px;
+    cursor: pointer;
+}
+
+.arrow{
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    background-color: var(--main-color-green);
 }
 
 ul{

@@ -11,6 +11,7 @@
     color: var(--accent-color-pink);
     background: url("../img/map.jpg") no-repeat center;
     background-size: cover;
+    cursor: pointer;
 }
 
 .label{
@@ -57,7 +58,6 @@
     bottom: 0;
     left: 0;
     z-index: 100;
-    background-color: brown;
     transition: 2s all ease;
     overflow: hidden;
     z-index: 100;
@@ -74,10 +74,10 @@ input:checked ~ .start-meny{
 
 frame{
     position: relative;
-    z-index: 1;
 }
 
 .close-map{
+cursor: pointer;
 text-align: center;
 padding: 20px;
 background-color: var(--main-color-green);

@@ -9,6 +9,7 @@
     background: #ffffff;
     background: url("../img/picture3.png") no-repeat center;
     background-size: cover;
+    z-index: 199;
 }
 
 .header::before {
