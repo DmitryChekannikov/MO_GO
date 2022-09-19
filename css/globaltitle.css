@@ -7,7 +7,7 @@
     padding-right: 25px;
     color: var(--text-color-dark);
     text-align: center;
-    z-index: 199;
+    z-index: 10;
 }
 
 .globaltitle-content {
@@ -15,10 +15,6 @@
     padding-bottom: 80px;
 }
 
-.h2-subtitle {
-    font-size: 25px;
-    font-family: 'Kaushan Script';
-}
 
 .h2 {
     margin-bottom: 30px;
@@ -36,4 +32,8 @@
     width: 100%;
     max-width: 950px;
     margin: 0 auto;
+}
+
+.globaltitle .top_arrow{
+    cursor: pointer;
 }

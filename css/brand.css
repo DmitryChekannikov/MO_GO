@@ -9,6 +9,7 @@
     padding-bottom: 55px;
     color: var(--text-color-dark);
     background: #f8f8f8;
+    z-index: 10;
 }
 
 .brand-content {
@@ -30,6 +31,3 @@
     text-align: center;
 }
 
-.brand-img-wrap img{
-    width: auto;
-}

@@ -93,13 +93,6 @@
     margin-bottom: 50px;
 }
 
-.h1-subtitle {
-    font-size: 60px;
-    font-family: 'Kaushan Script';
-    text-transform: uppercase;
-    margin-bottom: 25px;
-}
-
 .button:hover {
     color: var(--text-color-white);
     background: var(--accent-color-pink);
