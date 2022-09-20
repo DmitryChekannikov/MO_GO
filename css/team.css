@@ -16,6 +16,7 @@
 }
 
 .team-item {
+    box-sizing: border-box;
     position: relative;
     width: 33.333%;
     height: auto;
@@ -64,6 +65,10 @@ img {
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
+}
+
+.team-social-icon{
+    fill: var(--accent-color-pink);
 }
 
 .gradient-i {
@@ -118,4 +123,23 @@ img {
 
 .team-item-img:hover .team-item-menu {
     opacity: 100%;
+}
+
+
+/**media**/
+@media (max-width: 760px) {
+    .team-item {
+        width: 65%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    .team-item:last-child{
+    margin: 0 auto;
+    }
+
+    .team-content{
+        flex-wrap: wrap;
+    }
+
 }

@@ -16,11 +16,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .brand-item {
+    box-sizing: border-box;
     width: 16.666%;
-    margin-right: 100px;
 }
 
 .brand-item:last-child {
@@ -31,3 +32,27 @@
     text-align: center;
 }
 
+.brand-img-wrap img{
+    width: auto;
+}
+
+
+/**media**/
+@media (max-width: 1200px) {
+    .brand-item {
+        width: 33.333%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 760px) {
+    .brand-item {
+        width: 50%;
+    }
+    .brand-img-wrap img {
+        width: 100px;
+    }
+    .brand-content{
+        justify-content: center;
+    }
+}

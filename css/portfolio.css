@@ -68,3 +68,18 @@
 .portfolio-item:hover .portfolio-item-menu ul {
     opacity: 100%;
 }
+
+
+/**media**/
+@media (max-width: 760px) {
+.column-portfolio {
+        width: 50%;
+    }
+}
+
+/**media**/
+@media (max-width: 480px) {
+    .column-portfolio {
+        width: 100%;
+    }
+}

@@ -37,3 +37,12 @@
 .globaltitle .top_arrow{
     cursor: pointer;
 }
+
+/**media**/
+@media (max-width: 760px) {
+.globaltitle-content {
+        padding-top: 75px;
+        padding-bottom: 50px;
+    }
+
+}

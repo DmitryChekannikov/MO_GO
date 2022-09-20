@@ -63,3 +63,38 @@
     vertical-align: middle;
     padding-left: 20px;
 }
+
+
+/**media**/
+@media (max-width: 990px) {
+    .text-slider {
+            font-size: 16px;
+        }
+}
+
+@media (max-width: 760px) {
+    .text-slider {
+        font-size: 16px;
+    }
+
+    .slider-item-img {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .slider-item-text {
+        display: block;
+        width: 100%;
+    }
+
+    .slider-item{
+        text-align: center;
+    }
+
+    .slider-content {
+        padding: 0 30px;
+    }
+}
