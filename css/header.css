@@ -119,7 +119,7 @@
 }
 
 .nav-bottom-line {
-    width: 100%;
+    width: 80%;
     height: 3px;
     background: #ffffff;
     margin-bottom: 20px;
@@ -181,7 +181,7 @@
 
     .header-content{
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: space-evenly;
     }
     .h-top {
         flex-direction: row;
@@ -197,10 +197,6 @@
 
     .burger-icon img {
         width: 55px;
-    }
-
-    .h-bottom {
-        display: none;
     }
 
     .nav-bottom-line {
@@ -228,6 +224,36 @@
 .burger-icon{
         margin-right: 0px!important;
     }
+        .h-bottom {
+            padding: 20px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    .nav-bottom {
+        width: 50%;
+        margin-right: 0px;
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+    }
+    .nav-bottom-line {
+        margin-bottom: 10px;
+    }
+        .nav-bottom-text {
+            font-size: 13px;
+        }
+    
+        .nav-bottom-text span {
+            font-size: 18px;
+        }
+    .nav-bottom-line {
+        height: 1px;
+    }
 
 }
 
@@ -239,6 +265,16 @@
         .h1-subtitle {
             font-size: 25px;
         }
+        .h-center{
+            margin-bottom: 15px;
+        }
+    .h-center .color-line {
+        margin-bottom: 30px;
+    }
+
+    .h1-title{
+        margin-bottom: 30px;
+    }
 }
 
 @media (min-width: 761px) {
@@ -247,16 +283,10 @@
 }
 }
 
-@media screen and (orientation: landscape) {
-    .h1-title {
-            font-size: 50px;
-        }
-    
-        .h1-subtitle {
-            font-size: 25px;
-        }
-                .header {
-        min-height: 550px;
+@media (min-width: 461px) and (orientation: landscape) {
+
+.header {
+        min-height: 850px;
             height: 100vh;
                 }
 }
