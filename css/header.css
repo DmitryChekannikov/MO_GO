@@ -281,7 +281,7 @@
             height: 100vh;
             background-color: #000000;
             padding-bottom: 50px;
-            background-image: url("../img/close.svg");
+            background-image:  linear-gradient(rgba(244, 139, 130, 0.85), rgba(252, 227, 138, 0.85));
             background-repeat: no-repeat;
             background-position: 90% 5%;
         }
@@ -297,12 +297,23 @@
         img.iconsearc{
             display: none;
         }
+        img.closeicon{
+            display: inline-block;
+            width: 55px;
+            margin-bottom: 35px;
+            text-align: right;
+        }
 
         .hidden-ul li:first-child{
-            padding-top: 150px;
+            padding-top: 100px;
         }
         li.burger-img{
             margin-right: 0px;
+        }
+        li.closeicon-li{
+            display: flex;
+            justify-content:flex-end;
+            margin-right: 25px;
         }
 
 }
@@ -334,6 +345,9 @@
 .main-meny li.burger-img{
     display: none;
 }
+ li.closeicon-li{
+    display: none;
+ }
 }
 
 @media (min-width: 461px) and (orientation: landscape) {
