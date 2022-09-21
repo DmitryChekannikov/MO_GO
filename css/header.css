@@ -266,11 +266,11 @@
     }
 
      li.mobule-meny {
-        display: block;
+        display: none;
     }
 
         #burder-menu-label:checked ~ li.mobule-meny{
-            display: none;
+            display: block;
         }
         .hidden-ul{
             z-index: 999;
