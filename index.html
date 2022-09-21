@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/statistic.css">
     <link rel="stylesheet" href="css/globaltitle.css">
     <link rel="stylesheet" href="css/amazing.css">
+    <link rel="stylesheet" href="css/staff.css">
     <link rel="stylesheet" href="css/brand.css">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/team.css">
@@ -18,7 +20,7 @@
     <link rel="icon" href="./img/favicon.ico">
     <link rel="icon" href=".svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href=".png">
-    <title>Document</title>
+    <title>MO-GO</title>
 </head>
 <body class="cursor skrollbar ">
     <!--top preloader start-->
@@ -36,15 +38,24 @@
                 <div class="h-top">
                     <div class="logo"><span>MoGo</span></div>
                     <div class="main-meny">
-                        <ul><li class="burger-icon"><a class="img_a" href="#"><img src="./img/m-menu.svg" alt="картинка"></a></li>
-                            <li class="meny-li"><a href="#">About</a></li>
-                            <li class="meny-li"><a href="#">Service</a></li>
-                            <li class="meny-li"><a href="#">Work</a></li>
-                            <li class="meny-li"><a href="#">Blog</a></li>
-                            <li class="meny-li"><a href="#">Kontact</a></li>
-                            <li class="meny-li"><a class="img_a" href="#"><img src="./img/basket.svg" alt="картинка"></a></li>
-                            <li class="meny-li last-li"><a class="img_a" href="#"><img src="./img/search.svg" alt="картинка"></a></li>
-
+                        <ul>
+            <label for="burder-menu-label" class="label-meny">
+            <input id="burder-menu-label" type="checkbox">
+                            
+                            <li class="burger-img"><img src="./img/m-menu.svg" alt="картинка"></li>
+                            <li class="mobule-meny">
+                                <ul class="hidden-ul">
+                                    
+                                    <li class=""><a href="#About">About</a></li>
+                                    <li class=""><a href="#Service">Service</a></li>
+                                    <li class=""><a href="#Work">Work</a></li>
+                                    <li class=""><a href="#Blog">Blog</a></li>
+                                    <li class=""><a href="#Kontact">Kontact</a></li>
+                                    <li class=""><a class="img_a" href="#"><img class="icon-menu-top" src="./img/basket.svg" alt="картинка"></a></li>
+                                    <li class="last-li"><a class="img_a" href="#"><img class="icon-menu-top iconsearc" src="./img/search.svg" alt="картинка"></a></li>
+                                </ul>
+                        </li>
+            </label>
                         </ul>
                     </div>
                 </div>
@@ -79,12 +90,12 @@
         </div>
     </header>
     <!--header end-->
-<div class="second-screen">
+<main class="second-screen">
     <!--statistic start-->
     <section class="statistic">
         <div class="container">
             <div class="statistic-content">
-                
+                <h4>&nbsp;</h4>
                 <div class="statistic-item">
                     <div class="statistic-item-count">42</div>
                     <div class="statistic-item-text">Web Design Projects</div>
@@ -111,7 +122,7 @@
     <!--statistic end-->
 
     <!--globaltitle start Amazing Services-->
-    <section class="globaltitle">
+    <section class="globaltitle" id="About">
         <div class="container">
             <div class="globaltitle-content">
                 <h2 class="h2">
@@ -178,7 +189,7 @@
     <!--Amazing Services end-->
 
     <!--globaltitle start What we do-->
-    <section class="globaltitle">
+    <section class="globaltitle" id="Service">
         <div class="container">
             <div class="globaltitle-content">
                 <h2 class="h2">
@@ -194,6 +205,64 @@
     </section>
     <!--globaltitle end-->
 
+    <!--staff-->
+    <section class="staff" >
+        <div class="container">
+            <div class="staff-content">
+                <h4>&nbsp;</h4>
+                <div class="staff-img">
+                    <img src="./img/staff.jpg" alt="staff">
+                </div>
+                <div class="staff-deskr">
+                    <div class="staff-deskr-row">
+                    <label for="staff-display1">
+                    <input id="staff-display1" type="checkbox">
+                        <span class="staff-deskr-row_title">
+                            <span class="h3-title"><img class="staff-icon" src="./img/staff-icon1.svg" alt="icon"> &nbsp;Christopher Campbell</span>
+                        </span>
+                        <span class="staff-deskr-row_text staff-display1"><span class="hover-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam ullam sed doloribus
+                        aliquid,sit amet consectetur adipisicing nostrum, vel iusto nam at quo unde fuga praesentium possimus
+                        voluptatibus.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam ullam sed doloribus
+                        aliquid,sit amet consectetur adipisicing nostrum, vel iusto nam at quo unde fuga praesentium possimus
+                        voluptatibus.</span></span>
+                    </label>
+                    </div>
+                    <div class="staff-deskr-row">
+                    <label for="staff-display2">
+                    <input id="staff-display2" type="checkbox">
+                        <span class="staff-deskr-row_title">
+                            <span class="h3-title"><img class="staff-icon" src="./img/staff-icon2.svg" alt="icon"> &nbsp;Creativity</span>
+                        </span>
+                        <span class="staff-deskr-row_text staff-display2"><span class="hover-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Veniam ullam sed doloribus
+                                aliquid,sit amet consectetur adipisicing nostrum, vel iusto nam at quo unde fuga praesentium possimus
+                                voluptatibus.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam ullam sed doloribus
+                                aliquid,sit amet consectetur adipisicing nostrum, vel iusto nam at quo unde fuga praesentium possimus
+                                voluptatibus.</span></span>
+                    </label>
+                    </div>
+
+                    <div class="staff-deskr-row">
+                    <label for="staff-display3">
+                    <input id="staff-display3" type="checkbox">
+                        <span class="staff-deskr-row_title">
+                            <span class="h3-title"><img class="staff-icon" src="./img/staff-icon3.svg" alt="icon"> &nbsp;Web design</span>
+                        </span>
+                        <span class="staff-deskr-row_text staff-display3"><span class="hover-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Veniam ullam sed doloribus
+                                aliquid,sit amet consectetur adipisicing nostrum, vel iusto nam at quo unde fuga praesentium possimus
+                                voluptatibus.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam ullam sed doloribus
+                                aliquid,sit amet consectetur adipisicing nostrum, vel iusto nam at quo unde fuga praesentium possimus
+                                voluptatibus.</span></span>
+                    </label>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--staff end-->
+
     <!--slider start-->
     <section class="slider">
         <div class="container">
@@ -201,9 +270,7 @@
                 <h4>&nbsp;</h4>
                 <div class="slider-item">
                     <div class="slider-item-img">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="" height="48" width="48">
-                            <use href="#slider-icon"></use>
-                        </svg>
+                        <img src="./img/slider-icon.svg" alt="icon">
                     </div>
                     <div class="slider-item-text">
                         <p class="text text-slider">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -236,7 +303,7 @@
     <!--globaltitle end-->
 
     <!--team start-->
-    <section class="team">
+    <section class="team" id="Blog">
         <div class="container">
             <div class="team-content">
                 <div class="team-item">
@@ -373,7 +440,7 @@
     <!--brand end-->
 
     <!--globaltitle start Some of our work-->
-    <section class="globaltitle">
+    <section class="globaltitle" id="Work">
         <div class="container">
             <div class="globaltitle-content">
                 <h2 class="h2">
@@ -531,43 +598,29 @@
         </div>
     </section>
     <!--portfolio end-->
-
-    <!--map start-->
-    <label for="icon-meny" class="label">
-        <input id="icon-meny" type="checkbox">
-        <span class="map">
-            <span class="container">
-                <span class="map-content">
-                    <span class="h2">
-                        <svg class="map-marker-icon" height="48" width="48">
-                            <use href="#map-marker"></use>
-                        </svg>
-                        <span class="h2-title">Open Map</span>
+</main>
+    <footer>
+        <!--map start-->
+        <label for="icon-meny" class="label" id="Kontact">
+            <input id="icon-meny" type="checkbox">
+            <span class="map">
+                <span class="container">
+                    <span class="map-content">
+                        <span class="h2">
+                            <img class="map-marker" src="./img/map.svg" alt="marker">
+                            <span class="h2-title">Open Map</span>
+                        </span>
+                        <span class="color-line"></span>
                     </span>
-                    <span class="color-line"></span>
                 </span>
             </span>
-        </span>
-        <span class="start-meny"><span class="close-map h2-subtitle">CLOSE MAP <span
-                    style="color: #f38181;">&#128473;</span></span> <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d175890.70081194295!2d30.56397511263813!3d46.462719892484806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1663584087226!5m2!1sru!2sru"
-                style="border:0;" allowfullscreen="" loading="lazy" class="iframe-map"></iframe></span>
-    </label>
-    <!--map end-->
-
-
-    <!--svg-->
-    <svg xmlns="http://www.w3.org/2000/svg" fill="" height="48" width="48" style="display: none;">
-        <defs>
-            <path class="map-marker" id="map-marker"
-                d="M24 23.5q1.45 0 2.475-1.025Q27.5 21.45 27.5 20q0-1.45-1.025-2.475Q25.45 16.5 24 16.5q-1.45 0-2.475 1.025Q20.5 18.55 20.5 20q0 1.45 1.025 2.475Q22.55 23.5 24 23.5Zm0 16.55q6.65-6.05 9.825-10.975Q37 24.15 37 20.4q0-5.9-3.775-9.65T24 7q-5.45 0-9.225 3.75Q11 14.5 11 20.4q0 3.75 3.25 8.675Q17.5 34 24 40.05ZM24 44q-8.05-6.85-12.025-12.725Q8 25.4 8 20.4q0-7.5 4.825-11.95Q17.65 4 24 4q6.35 0 11.175 4.45Q40 12.9 40 20.4q0 5-3.975 10.875T24 44Zm0-23.6Z" />
-            <path class="slider-icon" id="slider-icon"
-                d="M5.55 32.35V6.95q0-.65.55-1.225.55-.575 1.2-.575H32q.65 0 1.2.575.55.575.55 1.225v16.6q0 .65-.55 1.25t-1.2.6H12.55Zm8.75 1.7q-.6 0-1.175-.575-.575-.575-.575-1.225V28.6h23.8l.6.6V12.05h3.75q.65 0 1.2.6.55.6.55 1.25V41l-6.95-6.95Zm17.3-26.7H7.75v19.7l3.85-3.85h20Zm-23.85 0v19.7Z" />
-            <path class="portfolio-icon" id="portfolio-icon"
-                d="M9 42q-1.2 0-2.1-.9Q6 40.2 6 39V9q0-1.2.9-2.1Q7.8 6 9 6h10.65v3H9v30h30V25.45l3 3V39q0 1.2-.9 2.1-.9.9-2.1.9Zm2.85-7.85 5.85-7.55 4.65 6.3 6.5-8.5 7.35 9.75Zm31.9-8.25-6.65-6.65q-1.05.7-2.075 1.025Q34 20.6 32.6 20.6q-3.5 0-5.9-2.4-2.4-2.4-2.4-5.9 0-3.5 2.4-5.9Q29.1 4 32.6 4q3.5 0 5.9 2.4 2.4 2.4 2.4 5.9 0 1.4-.4 2.65t-1.1 2.3l6.5 6.5ZM32.6 17.6q2.3 0 3.8-1.5t1.5-3.8q0-2.3-1.5-3.8T32.6 7q-2.3 0-3.8 1.5t-1.5 3.8q0 2.3 1.5 3.8t3.8 1.5Z" />
-        </defs>
-    </svg>
-</div>
+            <span class="start-meny"><span class="close-map h2-subtitle">CLOSE MAP <span
+                        style="color: #f38181;">&#128473;</span></span> <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d175890.70081194295!2d30.56397511263813!3d46.462719892484806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1663584087226!5m2!1sru!2sru"
+                    style="border:0;" allowfullscreen="" loading="lazy" class="iframe-map"></iframe></span>
+        </label>
+        <!--map end-->
+    </footer>
     <!--top arrow start-->
     <section class="top_arrow">
         <h4>&nbsp;</h4>

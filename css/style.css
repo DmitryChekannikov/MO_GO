@@ -115,6 +115,11 @@ h4{
     color: var(--text-color-white);
 }
 
+footer{
+    position: relative;
+    z-index: 1;
+}
+
 
 /**cursor**/
 .cursor{
@@ -173,8 +178,7 @@ h4{
 }
 
 /*preloader*/
-
-.overlay{
+.overlay {
     box-sizing: border-box;
     position: fixed;
     left: 0;
@@ -190,7 +194,7 @@ h4{
     opacity: 100%;
     background: linear-gradient(358deg, #f38181, #95e1d3);
     background-size: 400% 400%;
-    animation: AnimationName 3s ease forwards, preloaderhide 2s 2s ease forwards ;
+    animation: AnimationName 3s ease forwards, preloaderhide 2s 2s ease forwards;
 }
 
 
@@ -229,8 +233,18 @@ h4{
 }
 
 
-.second-screen{
+.second-screen,
+footer,
+.top_arrow
+{
     position: relative;
+    height: 0;
+    scale: 0;
+    animation: sEcond-screen 1s 3s ease forwards;
+}
+
+.top_arrow {
+    position: fixed;
     height: 0;
     scale: 0;
     animation: sEcond-screen 1s 3s ease forwards;

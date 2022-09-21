@@ -47,7 +47,7 @@
 }
 
 .map-marker{
-    fill: var(--accent-color-pink);
+    width: 70px;
 }
 
 .map-content{

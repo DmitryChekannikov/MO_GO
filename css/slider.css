@@ -41,10 +41,9 @@
     vertical-align: middle;
 }
 
-.slider-icon{
-    fill: var(--main-color-green);
+.slider-item-img img{ 
+    width: 50%;
 }
-
 .text-slider {
     font-size: 21px;
     font-style: italic;

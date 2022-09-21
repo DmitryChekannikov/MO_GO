@@ -1,0 +1,108 @@
+/**Staff**/
+.staff {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 25px;
+    padding-bottom: 110px;
+    color: var(--text-color-dark);
+}
+
+.staff-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.staff-img,
+.staff-deskr{
+    width: 50%;
+}
+
+.staff-img{
+    margin-right: 35px;
+}
+
+.staff-deskr-row{
+    border: 1px solid #f3f3f3;
+        border-radius: 15px;
+        margin-bottom: 5px;
+}
+
+.staff-deskr-row_title{
+    position: relative;
+    z-index: 10;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    display: block;
+    cursor: pointer;
+    border-bottom: 1px solid #f3f3f3;
+    background: url("../img/staff-arrow.png") no-repeat;
+    background-position: 95% 50%;
+}
+
+.hover-text {
+    color: var(--text-color-grey);
+    display: inline-block;
+    font-size: 13px;
+    font-style: italic;
+    overflow-y: scroll;
+    padding-right: 25px;
+    height: 55px;
+}
+
+
+.staff-deskr-row_text{
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.staff-icon{
+    width: 30px;
+}
+
+.staff-display3,
+.staff-display2,
+.staff-display1{
+    display: none;
+}
+
+#staff-display1:checked ~ .staff-display1{
+    display: block;
+}
+
+#staff-display2:checked~.staff-display2 {
+    display: block;
+}
+
+#staff-display3:checked~.staff-display3 {
+    display: block;
+}
+
+
+input {
+    display: none;
+}
+
+.h3-title{
+    font-weight: bold;
+}
+
+/**media**/
+@media (max-width: 900px) {
+    .staff-img,
+    .staff-deskr {
+        width: 100%;
+    }
+
+    .staff-content {
+        flex-wrap: wrap;
+    }
+
+    .staff-img {
+        margin-right: 0px;
+        margin-bottom: 35px;
+    }
+}
+
