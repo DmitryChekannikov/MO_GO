@@ -40,8 +40,10 @@
     transition: all 0.5s ease;
 }
 
-.portfolio-icon{
-    fill: #ffffff;
+
+
+li .portfolio_icon{
+    width: 40px;
     margin-bottom: 15px;
 }
 
